@@ -11,8 +11,8 @@ path(path, [curPath filesep 'MIToolbox-master']);
 clear all;clc
 % set random seed
 rand('state', sum(100*clock));
- N=2; %20,20,6
- Submax_it=60; CycleNum=8;
+ N=10; %20,20,6
+ Submax_it=6; CycleNum=8;
  iterMax=Submax_it*CycleNum;
  Fnum1=100; Fnum1w=20000;
  ElitistCheck=1;  bit_num=1;  min_flag=0; Nr=30; 
